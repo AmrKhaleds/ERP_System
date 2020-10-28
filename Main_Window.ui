@@ -2131,166 +2131,335 @@ PlotWidget {
 }</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QListWidget" name="listWidget">
+   <widget class="QListWidget" name="listWidget_2">
     <property name="geometry">
      <rect>
-      <x>14</x>
-      <y>14</y>
+      <x>1660</x>
+      <y>73</y>
       <width>241</width>
-      <height>941</height>
+      <height>881</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListView" name="listView_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1891</width>
+      <height>51</height>
      </rect>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>34</x>
-      <y>50</y>
-      <width>191</width>
-      <height>71</height>
+      <x>20</x>
+      <y>20</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Segoe UI</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  background-color: #19232D;
+  /*border: 1px solid #32414B;*/
+
+}</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>File</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
     <property name="geometry">
      <rect>
-      <x>34</x>
-      <y>320</y>
-      <width>191</width>
-      <height>71</height>
+      <x>160</x>
+      <y>20</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  background-color: #19232D;
+  /*border: 1px solid #32414B;*/
+
+}</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Lists</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_3">
     <property name="geometry">
      <rect>
-      <x>34</x>
-      <y>230</y>
-      <width>191</width>
-      <height>71</height>
+      <x>300</x>
+      <y>20</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  background-color: #19232D;
+  /*border: 1px solid #32414B;*/
+
+}</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Sales</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_4">
     <property name="geometry">
      <rect>
-      <x>34</x>
-      <y>140</y>
-      <width>191</width>
-      <height>71</height>
+      <x>440</x>
+      <y>20</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  background-color: #19232D;
+  /*border: 1px solid #32414B;*/
+
+}</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Purchases</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_5">
     <property name="geometry">
      <rect>
-      <x>34</x>
-      <y>410</y>
-      <width>191</width>
-      <height>71</height>
+      <x>580</x>
+      <y>20</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  background-color: #19232D;
+  /*border: 1px solid #32414B;*/
+
+}</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Items</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_6">
     <property name="geometry">
      <rect>
-      <x>34</x>
-      <y>500</y>
-      <width>191</width>
-      <height>71</height>
+      <x>720</x>
+      <y>20</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  background-color: #19232D;
+  /*border: 1px solid #32414B;*/
+
+}</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Account</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_7">
     <property name="geometry">
      <rect>
-      <x>34</x>
-      <y>590</y>
-      <width>191</width>
-      <height>71</height>
+      <x>860</x>
+      <y>20</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  background-color: #19232D;
+  /*border: 1px solid #32414B;*/
+
+}</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Custmers and vendors</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_8">
     <property name="geometry">
      <rect>
-      <x>34</x>
-      <y>680</y>
-      <width>191</width>
-      <height>71</height>
+      <x>1000</x>
+      <y>20</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  background-color: #19232D;
+  /*border: 1px solid #32414B;*/
+
+}</string>
+    </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Employees</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_9">
     <property name="geometry">
      <rect>
-      <x>34</x>
-      <y>770</y>
-      <width>191</width>
-      <height>71</height>
+      <x>1140</x>
+      <y>20</y>
+      <width>131</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+  background-color: #19232D;
+  /*border: 1px solid #32414B;*/
+
+}</string>
     </property>
     <property name="text">
-     <string>PushButton</string>
+     <string>Reports</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_10">
+   <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>34</x>
-      <y>860</y>
-      <width>191</width>
-      <height>71</height>
+      <x>260</x>
+      <y>72</y>
+      <width>1391</width>
+      <height>881</height>
      </rect>
     </property>
-    <property name="text">
-     <string>PushButton</string>
+    <property name="currentIndex">
+     <number>0</number>
     </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>File</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Lists</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Sales</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Purchases</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Items</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_6">
+     <attribute name="title">
+      <string>Account</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_7">
+     <attribute name="title">
+      <string>Custmers and vendors</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_8">
+     <attribute name="title">
+      <string>Employees</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_9">
+     <attribute name="title">
+      <string>Reports</string>
+     </attribute>
+    </widget>
    </widget>
-   <widget class="QListView" name="listView">
+   <widget class="QListWidget" name="listWidget_3">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>14</y>
-      <width>1371</width>
-      <height>941</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QListWidget" name="listWidget_2">
-    <property name="geometry">
-     <rect>
-      <x>1660</x>
-      <y>14</y>
+      <x>10</x>
+      <y>73</y>
       <width>241</width>
-      <height>941</height>
+      <height>881</height>
      </rect>
     </property>
    </widget>
+   <zorder>tabWidget</zorder>
+   <zorder>listWidget_2</zorder>
+   <zorder>listView_2</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>pushButton_4</zorder>
+   <zorder>pushButton_5</zorder>
+   <zorder>pushButton_6</zorder>
+   <zorder>pushButton_7</zorder>
+   <zorder>pushButton_8</zorder>
+   <zorder>pushButton_9</zorder>
+   <zorder>listWidget_3</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
